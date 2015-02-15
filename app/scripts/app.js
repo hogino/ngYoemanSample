@@ -1,15 +1,7 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name ngJhacSampleApp
- * @description
- * # ngJhacSampleApp
- *
- * Main module of the application.
- */
 angular
-  .module('ngJhacSampleApp', [
+  .module('ngYoemanSampleApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
