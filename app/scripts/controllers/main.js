@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('ngYoemanSampleApp')
-  .controller('MainCtrl', function ($scope, localStorageService) {
+// angular.module('ngYoemanSampleApp')
+app.controller('MainCtrl', function ($scope, localStorageService) {
     
     var todosInStore = localStorageService.get('todos');
 

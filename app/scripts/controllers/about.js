@@ -7,8 +7,8 @@
  * # AboutCtrl
  * Controller of the ngJhacSampleApp
  */
-angular.module('ngYoemanSampleApp')
-  .controller('AboutCtrl', function ($scope) {
+// angular.module('ngYoemanSampleApp')
+app.controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
